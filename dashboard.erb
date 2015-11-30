@@ -8,8 +8,10 @@
            data-message="Broadcast your message!"
            data-alertsound="/static/mp3/alert.mp3"
            data-angrysound="/static/mp3/angry.mp3"
+           data-birthdaysound="/static/mp3/birthday.mp3"
            data-blacksound="/static/mp3/black.mp3"
            data-celebratingsound="/static/mp3/celebrating.mp3"
+           data-christmassound="/static/mp3/christmas.mp3"
            data-funnysound="/static/mp3/funny.mp3"
            data-happysound="/static/mp3/happy.mp3"
            data-neutralsound="/static/mp3/neutral.mp3"
@@ -17,4 +19,4 @@
     </li>
   </ul>
 </div>
-<center><div style="font-size: 12px">Shoutbox Usage: curl -d '{ "auth_token": "[AUTH_TOKEN]", "message": "Hey, Look what I can do!", "type": "alarm|alert|angry|bithday|black|celebration|funny|happy|love|neutral"}' http://<%=request.host%>:<%=request.port%>/widgets/shoutbox</div></center>
+<center><div style="font-size: 12px">Shoutbox Usage: curl -d '{ "auth_token": "[AUTH_TOKEN]", "message": "Hey, Look what I can do!", "type": "alarm|alert|angry|birthday|black|celebration|christmas|funny|happy|love|neutral"}' http://<%=request.host%>:<%=request.port%>/widgets/shoutbox</div></center>
