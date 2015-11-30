@@ -1,0 +1,20 @@
+<a target="_blank" href="https://gist.github.com/yannrouillard/796fe74d4cbf0cf42f47">Details</a>
+<div class="gridster">
+  <ul>
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="shoutbox"
+           data-view="Shoutbox"
+           data-title="Shoutbox"
+           data-message="Broadcast your message!"
+           data-alertsound="/static/mp3/alert.mp3"
+           data-angrysound="/static/mp3/angry.mp3"
+           data-blacksound="/static/mp3/black.mp3"
+           data-celebratingsound="/static/mp3/celebrating.mp3"
+           data-funnysound="/static/mp3/funny.mp3"
+           data-happysound="/static/mp3/happy.mp3"
+           data-neutralsound="/static/mp3/neutral.mp3"
+           data-lovesound="/static/mp3/love.mp3"></div>
+    </li>
+  </ul>
+</div>
+<center><div style="font-size: 12px">Shoutbox Usage: curl -d '{ "auth_token": "[AUTH_TOKEN]", "message": "Hey, Look what I can do!", "type": "alarm|alert|angry|bithday|black|celebration|funny|happy|love|neutral"}' http://<%=request.host%>:<%=request.port%>/widgets/shoutbox</div></center>
