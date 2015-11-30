@@ -33,9 +33,10 @@ curl -d '{ "auth_token": "[AUTH_TOKEN]", "message": "Hey, Look what I can do!", 
  - alarm
  - alert
  - angry
- - bithday
+ - birthday
  - black
  - celebrating
+ - christmas
  - funny
  - happy
  - love
