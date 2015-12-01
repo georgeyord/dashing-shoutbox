@@ -46,7 +46,7 @@ curl -d '{ "auth_token": "[AUTH_TOKEN]", "message": "Hey, Look what I can do!", 
 
 As a bonus, this widget can also play a sound when status is modified. Just add one or more `data-*type*sound` attributes with the value set to an absolute or relative url pointing to an audio file.
 
-Each time the stattypeus will change, the widget will play the audio file associated to the new status.
+Each time the type will change, the widget will play the audio file associated to the new status.
 
 Example:
 
@@ -54,7 +54,8 @@ Example:
 <div data-id="shoutbox" data-view="Shoutbox" data-title="Shoutbox" data-funnysound="/mp3/funny.mp3"></div>
 ```
 
-## Thanks 
+To use the included sample of mp3 files, add `public` folder contents in `public` folder of your dashing installation. Of-course you have to [clone](https://help.github.com/articles/cloning-a-repository/) this repo first.
+
+## Thanks
 
 Special thanks to the Dashing HotStatus Widget author as this widget is nearly forked from the HotStatus widget.
-    
